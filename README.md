@@ -23,6 +23,7 @@ transferência, empréstimos e a quantidade de parcelas desse empréstimo.
 ## Instalação
 
 * Clone este repositório git clone
+  
   https://github.com/NathaliaFernandes28/SistemaBancario/new/main?filename=README.md
 
 ## Como usar
@@ -34,13 +35,13 @@ transferência, empréstimos e a quantidade de parcelas desse empréstimo.
 
 1 - Fork o repositório
   
-  2 - Crie um branch para a sua contribuição: git checkout -b minha-contribuicao
+2 - Crie um branch para a sua contribuição: git checkout -b minha-contribuicao
   
-  3 - Faça as alterações e commit: git commit -m "Adiciona minha contribuicao"
+3 - Faça as alterações e commit: git commit -m "Adiciona minha contribuicao"
   
-  4 - Push para o seu fork: git push origin minha-contribuicao
+4 - Push para o seu fork: git push origin minha-contribuicao
   
-  5 - Abra um pull request
+5 - Abra um pull request
 
   
 
