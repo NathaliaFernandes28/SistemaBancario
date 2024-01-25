@@ -1,7 +1,7 @@
 ## Sistema Bancário
 
-Aplicação feita com o objetivo de simular um sistema bancário onde os usuários podem se cadastrar, cria uma conta e realizar ações como depósitos, 
-transferência, empréstimos e a quantidade de parcelas desse empréstimo. 
+Aplicação feita com o objetivo de simular um sistema bancário onde os usuários podem cria uma conta e realizar ações como depósitos, 
+transferência e empréstimos. Sendo possível a visualização das parcelas dos empréstimos e as informações dessas ações. 
 
 ## Demo 
 ![image](https://github.com/NathaliaFernandes28/SistemaBancario/assets/88513545/3749310c-cd94-43e6-bde5-07f490897ba8)
