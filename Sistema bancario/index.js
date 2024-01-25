@@ -32,4 +32,3 @@ console.log(App.findUser("juliana@email.com"));
 //Aqui vamos localizar e acessar a conta da usuária "juliana@email.com"//
 console.log(App.findUser("juliana@email.com").account);
 //Aqui vamos localizar a conta da usuária "juliana@email.com",vamos acessar essa conta, vamos acessar o valor do emprestimo e a quantidade de parcelas desse emprestimo dessa conta.//
-console.log(App.findUser("juliana@email.com").account.loans[0].installments);

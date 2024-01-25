@@ -7,7 +7,7 @@ module.exports = class Loan {
     //vamos calcular as parcelas e armazenar esse calculo no atributo Installment//
     for (let i = 1; i <= Installments; i++) {
       this.Installments.push(
-        new Installment(value * Loan.#fee) / Installment,
+        new Installment((value * Loan.#fee) / Installments),
         i
       );
     }
@@ -18,8 +18,8 @@ module.exports = class Loan {
     return Loan.#fee;
   }
   //Objeto statico para setarmos, modificarmos o atributo privado, no caso o atributo static #fee//
-  static set fee(newfeePercentage) {
+  static set fee(newFeePercentage) {
     //Vamos criar um parametro  para calcularmos a nova taxa de juros.//
-    Loan.#fee = 1 + newfeePercentage / 100;
+    Loan.#fee = 1 + newFeePercentage / 100;
   }
 };
